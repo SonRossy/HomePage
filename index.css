@@ -52,6 +52,7 @@ h3{
 .skill{
   border: 1px black solid;
 	height: 300px;
+	overflow-y: scroll;
 }
 #laptop{
 	color: red;
@@ -59,6 +60,7 @@ h3{
 }
 .professional{
 	text-align: center;
+	overflow-y: scroll;
 }
 .professional h1{
 	font-weight: bold;
