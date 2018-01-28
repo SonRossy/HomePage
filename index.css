@@ -1,3 +1,4 @@
+
 body{
   background-image: url("MySiteBackground.jpg");
 }
@@ -113,3 +114,119 @@ h3{
 .copyright{
 	font-size: small;
 }
+=======
+body{
+  background-image: url("MySiteBackground.jpg");
+}
+ media="screen";
+@media only screen and (max-width:400px)
+{
+small{display: none;}
+iframre {max-width: 100%;}
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+}
+nav ul li a{
+		color: black;
+		padding: 5px;
+	}
+
+	nav ul li a:hover{
+		background-color: #369;
+		color: #fff;
+	}
+
+.menu{
+	text-align: right;
+	margin-top: 25px;
+	font-weight: bold;
+}
+.top{
+	background-color: blue;
+}
+.computer{
+	margin-left:auto;
+}
+intro{
+	font-weight: bold;
+	text-align: justify;
+	word-spacing: 5px;
+}
+.intro{
+		margin-top: 5px;
+}
+#resume{
+	text-align: center;
+	border: 1px blue solid;
+	color: black;
+}
+h3{
+	text-shadow: 2px 2px blue;
+}
+.skill{
+  border: 1px black solid;
+	height: 300px;
+	overflow-y: scroll;
+}
+#laptop{
+	color: red;
+	align-content: center;
+}
+.professional{
+	text-align: center;
+}
+.professional h1{
+	font-weight: bold;
+	text-shadow: 3px 3px blue;
+}
+
+.experience h1{
+	font-weight: bold;
+	text-shadow: 3px 3px blue;
+	text-align: center;
+}
+
+.contact h1{
+	font-weight: bold;
+	text-shadow: 3px 3px blue;
+	text-align: center;
+}
+#subject{
+	width: 550px;
+	margin-top: 10px;
+}
+#email{
+	width:550px;
+	margin-top: 10px;
+}
+#message{
+	width: 550px;
+	height: 150px;
+		margin-top: 10px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+	text-align: center;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.copyright{
+	font-size: small;
+}
+
