@@ -1,19 +1,12 @@
 body{
   background-image: url("MySiteBackground.jpg");
-  max-width:100%; 
 }
  media="screen";
-@media only screen and (max-width:480px)
+@media only screen and (max-width:400px)
 {
 small{display: none;}
 iframre {max-width: 100%;}
 }
-
-@media only screen and (max-width:480px)
-		{
-		  .slider-image {max-width: 100%;}
-		  .flash-ad {display:none;}
-		}
 
 nav ul li {
 	display: inline;
@@ -39,8 +32,6 @@ nav ul li a{
 }
 .computer{
 	margin-left:auto;
-	max-width: 100%;
-	height: auto;
 }
 intro{
 	font-weight: bold;
@@ -88,15 +79,15 @@ h3{
 	text-align: center;
 }
 #subject{
-	width: 100%;
+	width: 550px;
 	margin-top: 10px;
 }
 #email{
-	width:100%;
+	width:550px;
 	margin-top: 10px;
 }
 #message{
-	width: 100%;
+	width: 550px;
 	height: 150px;
 		margin-top: 10px;
 }
@@ -121,9 +112,4 @@ h3{
 
 .copyright{
 	font-size: small;
-}
-
-
-.ContactMe{
-	max-width: auto;
 }
